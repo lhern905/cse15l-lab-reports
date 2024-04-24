@@ -7,8 +7,9 @@
 --- ---
 ### Use /add-message:
 ![Image](Add_1.png)
-There is only one method called in my first screenshot and that is the handle request method which returns a string. Important values in this screen shot is the `String[]` str, which holds what the users mesaage is, the array of strings `String[]` user, which hold what the input for the username is, the `String` result, which holds what will be outputed, 
+There is only one method called in my first screenshot and that is the handle request method which returns a string. Important values in this screen shot is the `String[]` str, which holds what the users mesaage is, the array of strings `String[]` user, which hold what the input for the username is, the `String` result, which holds what will be outputed, the `String[]` parameters, which is used to ensure that the input the user made was correct. 
 ![Image](Add_2.png)
+There is only one method called in my first screenshot and that is the handle request method which returns a string. Important values in this screen shot is the `String[]` str, which holds what the users mesaage is, the array of strings `String[]` user, which hold what the input for the username is, the `String` result, which holds what will be outputed, the `String[]` parameters, which is used to ensure that the input the user made was correct. 
 
 ## Part 2
 1.) ![Image](ls_privK.png)
