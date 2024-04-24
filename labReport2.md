@@ -1,4 +1,4 @@
-# Lab Report 2 - Remote Acces & FileSystem
+# Lab Report 2 - Servers and SSH Keys
 
 ## Part 1
 ### Code:
