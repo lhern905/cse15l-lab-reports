@@ -36,3 +36,16 @@
      }
    }
 ```
+
+By creating a clone of the originally array we can then iterate and replace the contents of the original array. This fixes the problem that by iterating when we get to the second half of the array it starts to mirror the first half.
+
+##Part 2 -Researching Commands 
+Less
+-N
+-M
+-P
+-e
+
+https://www.scaler.com/topics/less-command-in-linux/#
+https://itsfoss.com/less-command/
+Man vscode
