@@ -200,11 +200,10 @@ uptake of ThDP by rat liver mitochondria characterized by a
 ./technical/biomed/1471-2091-3-8.txt lines 5-38/430 9%
 ```
 -p
-```
-less -p "It"  ./technical/911report/chapter-12.txt
+```less -p "It"  ./technical/911report/chapter-12.txt```
 ![Image](-pIt.png)
-```
 ```less -p "The"  ./technical/biomed/ar387.txt  ```
+![Image](pThe.png)
 -e
 ```less -e ./technical/biomed/cc2171.txt```
 ```less -e ./technical/plos/pmed.0020281.txt```
