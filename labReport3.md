@@ -115,6 +115,8 @@ less -N ./technical/plos/pmed.0020226.txt
      16     
      17   
 ```
+The -N command is meant to help you see how many lines are in the text. This is useful for when trying to compare to different files and which one has more lines of text in them. I found this command from this website, [Scaler](https://www.scaler.com/topics/less-command-in-linux/#)
+
 -M
 ```
 less -M ./technical/government/Media/5_Legal_Groups.txt  
@@ -199,6 +201,8 @@ cytosolic and mitochondria cannot convert thiamine to ThDP
 uptake of ThDP by rat liver mitochondria characterized by a
 ./technical/biomed/1471-2091-3-8.txt lines 5-38/430 9%
 ```
+The -M command is meant to help
+
 -p
 ```less -p "It"  ./technical/911report/chapter-12.txt```
 ![Image](-pIt.png)
