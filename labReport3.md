@@ -41,6 +41,7 @@ By creating a clone of the originally array we can then iterate and replace the 
 
 ##Part 2 -Researching Commands 
 Less
+
 -N
 ```
 less -N ./technical/plos/pmed.0020148.txt
@@ -201,16 +202,90 @@ cytosolic and mitochondria cannot convert thiamine to ThDP
 uptake of ThDP by rat liver mitochondria characterized by a
 ./technical/biomed/1471-2091-3-8.txt lines 5-38/430 9%
 ```
-The -M command is meant to help
+The -M command is meant to help as it puts all of the information of what is currently displayed on the terminal at the bottom, with the sub directory, lines that are currently being shown, how many total lines there are, and how far down you are. This is useful as it helps the user figure out what text file they are looking at as well as how close to the bottom of the text file you are.  I found the information about the -M command through using the `man less` command on the terminal.
 
 -p
+
 ```less -p "It"  ./technical/911report/chapter-12.txt```
 ![Image](-pIt.png)
 ```less -p "The"  ./technical/biomed/ar387.txt  ```
 ![Image](pThe.png)
+
+The -p command is meant to help as it takes another input of a string and the terminal will then highlight the string that you input in the text. This is useful as when you are trying to look for a specific sentence or word in the text file, you can use the -p command for this. I found the information about the -p command through using the `man less` command on the terminal.
+
 -e
-```less -e ./technical/biomed/cc2171.txt```
-```less -e ./technical/plos/pmed.0020281.txt```
+
+```
+less -e ./technical/biomed/cc2171.txt
+Introduction
+Each year approximately 750 000 patients in the USA
+suffer from sepsis. Treatment for this disease costs $16.7
+billion annually [ 1 ] . Despite advances in supportive
+intensive care and use of appropriate antibiotics, the
+mortality associated with sepsis remains high, especially
+among those who develop hemodynamic shock [ 2 3 4 ] . Such
+patients frequently progress to multiple organ dysfunction
+syndrome, which results in a much higher mortality rate
+than among patients who do not develop such complications [
+3 5 6 7 ] . This life-threatening syndrome is largely
+attributed to the cardiovascular abnormalities associated
+with septic shock, requiring supportive therapy (e.g.
+mechanical ventilation, fluid resuscitation, and
+vasopressors) with volume loading, oxygen delivery, and
+regional perfusion [ 8 ] . However, there are still many
+controversies regarding choice of fluids [ 9 10 11 12 ] ,
+vasopressors [ 13 14 15 ] , hemodynamic end-points for
+resuscitation [ 16 17 18 19 20 ] , and monitoring
+techniques. Findings from a national survey of intensive
+care unit (ICU) utilization showed differences in types of
+procedures performed between unit types and hospital sizes
+[ 21 ] .
+The goals of the present study were to examine
+systematically the variations in overall resource use,
+therapeutic modality use, and outcome in patients with
+severe sepsis across academic medical centers, and to
+evaluate relationships between therapeutic modality use and
+variation in resource use.
+```
+
+```
+less -e ./technical/plos/pmed.0020281.txt
+ 
+Whistleblowers serve no function if they cannot tell their stories. The present story of
+whistleblowing—as discussed, in part, in 
+PLoS Medicine —that involves the pharmaceutical industry, pharmaceutical
+ benefit management corporations, the managed care industry, and the political and lobbying
+forces that zealously guard their secrets could not have been told without the help of
+courageous men and women [1, 2] For that reason, those of us who congregated in Washington,
+D.C., on May 15th, 2005, at the invitation and support of the Public Library of Science and
+the Government Accountability Project feel particularly humbled and grateful to these two
+sponsors. Our convictions could not have been aired were it not for the essential First
+Amendment work of responsible journalists, who exemplify the best in investigatory
+research.
+For me, whistleblowing is not a theoretical exercise. It has a human face and tangible
+features. It is the face of children and adults who have been injured or killed by
+misrepresented pharmaceuticals; clinical research trial results that have been sequestered
+from the scientific community and whose incomplete findings cause injury; and
+pharmaceuticals that are detailed to physicians, not to save lives or necessarily improve
+the health or welfare of the recipients, but to make money.
+In the lonely and, at times, discouraging world of whistleblowing, we whistleblowers are
+passionate, and often successful, because our efforts have a different goal than the
+corporations and political interests whose operations we occasionally challenge. Our goal
+is to tell the truth. That honest effort is the source of any ethical difference we can or
+might make. Truth is the basis for the power of a whistleblower, one that can withstand the
+assault of unprecedented odds against being heard put forth by that sum of political power,
+expediency, and money.
+A whistleblower's success depends upon competent and articulate media. The debate to
+improve the status quo—be it in pharmaceutical marketing or managed-care decision
+making—cannot proceed or flourish without it.
+Ralph Waldo Emerson, American essayist and philosopher (1803–1882), commented about
+success (I have adapted his comments for all of us who gathered in Washington in mid-May
+2005): “To leave the world a bit better, whether by a healthy child, a garden patch or a
+redeemed social condition; to know even one life breathed easier because you have lived;
+this is to have succeeded [as a whistleblower].”
+```
+
+The -e command is helpful as it ends the text output showing in the terminal once you scroll all the way to the bottom to the page. This is useful as it makes it so you don't always have to press q to exit out, making it more efficient for the user to end the text file showing. I found this information about the -e command on this website, [itsfoss](https://itsfoss.com/less-command/)
 
 https://www.scaler.com/topics/less-command-in-linux/#
 https://itsfoss.com/less-command/
